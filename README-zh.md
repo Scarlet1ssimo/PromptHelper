@@ -199,8 +199,9 @@
 
 ## 📞 联系方式
 
-- **作者**：Sauterne
-- **项目地址**：https://github.com/dongshuyan/PromptHelper
+- **作者**：Scarlet1ssimo
+- **原作者**：Sauterne
+- **原项目地址**：https://github.com/dongshuyan/PromptHelper
 - **脚本地址**：https://greasyfork.org/zh-CN/scripts/545456-prompthelper
 - **许可证**：MIT
 - **最新版本**：v1.7.0

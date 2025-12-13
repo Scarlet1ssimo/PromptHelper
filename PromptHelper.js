@@ -2,8 +2,8 @@
 // @name         PromptHelper
 // @namespace    http://tampermonkey.net/
 // @version      1.7.7
-// @description  PromptHelper：通用于 ChatGPT, Gemini, Claude, Kimi, DeepSeek, 通义、元宝、Google AI Studio、Grok、豆包 的侧边模板助手；主/设分离；导入/导出；从聊天栏读取并回填；Kimi/Claude 专项处理（覆盖、不重复、换行保真）。新增：站点默认模板（通配符、早保存优先）；“应用默认模板”一键套用站点默认/全局默认；修复并发覆盖（读-改-写）；Helper 按钮改蓝色以适配黑底站点。—— 本版：新增夜间模式（黑色系 UI），一键切换并持久化记忆；Claude 换行保真策略保持。—— 改进版：导入/导出增强（同名标准化、冲突策略、可选跳过重复内容、可选整包导入导出、schema/version 兼容、容错更清晰）；设置页标题改为“设置站点默认模板”；导出不再询问是否包含默认模板且默认不导出默认模板。；更新默认模板。
-// @author       Sauterne
+// @description  PromptHelper：通用于 ChatGPT, Gemini, Claude, Kimi, DeepSeek, 通义、元宝、Google AI Studio、Grok、豆包 的侧边模板助手；主/设分离；导入/导出；从聊天栏读取并回填；Kimi/Claude 专项处理（覆盖、不重复、换行保真）。新增：站点默认模板（通配符、早保存优先）；“应用默认模板”一键套用站点默认/全局默认；修复并发覆盖（读-改-写）；Helper 按钮改蓝色以适配黑底站点。—— 本版：新增夜间模式（黑色系 UI），一键切换并持久化记忆；Claude 换行保真策略保持。—— 改进版：导入/导出增强（同名标准化、冲突策略、可选整包导入导出）；设置页标题改为“设置站点默认模板”；导出不再询问是否包含默认模板且默认不导出默认模板。—— 二次开发：由 Scarlet1ssimo 修改，基于 Sauterne 的 PromptHelper (https://github.com/dongshuyan/PromptHelper)。
+// @author       Scarlet1ssimo
 // @match        http://chat.openai.com/*
 // @match        https://chat.openai.com/*
 // @match        http://chatgpt.com/*
