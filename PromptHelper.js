@@ -1067,7 +1067,8 @@ Execute this protocol now. Prioritize accuracy over speed. Think deeply, researc
         function getFinalFromChatByTemplateStr(templateStr) {
             if (!templateStr) return { error: 'no_template' };
             const inputEl = findInputElement(); if (!inputEl) return { error: 'no_input' };
-            const userTyped = getTextFromEditable(inputEl); if (!userTyped) return { error: 'no_user_input' };
+            const userTyped = getTextFromEditable(inputEl);
+            if (!userTyped && templateStr.includes('{User Question}')) return { error: 'no_user_input' };
             return { inputEl, final: templateStr.replace('{User Question}', userTyped) };
         }
 
